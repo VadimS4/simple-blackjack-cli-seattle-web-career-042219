@@ -35,6 +35,15 @@ end
 def hit?(card_total)
   prompt_user
   get_user_input
+    if input == "s"
+      return card_total
+    elsif input == "h"
+      deal_card
+      card_total = card_total + card
+    else
+      invalid_command
+      prompt_user
+    end
 end
 
 def invalid_command
