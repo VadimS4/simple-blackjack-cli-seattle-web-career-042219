@@ -28,6 +28,7 @@ def initial_round
   2.times do
     deal_card
   end
+  
 end
 
 def hit?(card_total)
