@@ -55,7 +55,6 @@ end
 #####################################################
 
 def runner
-  welcome
-  initial_roound
+  
 end
     
