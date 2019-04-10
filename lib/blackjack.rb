@@ -56,7 +56,6 @@ end
 
 def runner
   welcome
-  initial_round
-  hit?
+  initial_roound
 end
     
